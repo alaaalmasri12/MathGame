@@ -1,4 +1,4 @@
-# ConsoleApp1
+# MathGame
 # Requirements
 1- You need to create a Math game containing the 4 basic operations
 
