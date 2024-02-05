@@ -6,6 +6,7 @@ namespace MathGame // Note: actual namespace depends on the project name.
 {
     public class Program
     {
+        //
         private static DateTime startTime;
         private static List<string> recordsList = new List<string>();
         private static System.Timers.Timer timer= new System.Timers.Timer(2000);
