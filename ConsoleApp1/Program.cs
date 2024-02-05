@@ -56,10 +56,10 @@ namespace MathGame // Note: actual namespace depends on the project name.
                      if (opration.ToString().ToLower() == "random" || opration.ToString() == "7")
 
                     {
-                        string[] fruitsArray = { "+", "-","/","*", "show", "exit" };
-                        string inputString = fruitsArray[new Random().Next(0, fruitsArray.Length)];
-                        Console.WriteLine(inputString);
-                        Calculateoperation(inputString, firstnumber, secondnumber, recordsList);
+                        string[] mathopearations = { "+", "-","/","*", "show", "exit" };
+                        string selectedopeartion = mathopearations[new Random().Next(0, mathopearations.Length)];
+                        Console.WriteLine(selectedopeartion);
+                        Calculateoperation(selectedopeartion, firstnumber, secondnumber, recordsList);
 
 
                     }
